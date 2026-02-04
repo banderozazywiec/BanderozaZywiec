@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szlaki Górskie - Banderoza Poleca</title>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-24TG84GQSF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-24TG84GQSF');
+</script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+    <link rel="shortcut icon" href="img/favicon_io/favicon.ico">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+
+    <link rel="manifest" href="img/favicon_io/site.webmanifest">
+</head>
+<body>
+<div class="fixed-background"><div class="fixed-image-layer" style="background-image: url('img/gory.jpg');"></div><div class="fog-overlay"></div></div>
+<nav class="glass-nav"><div class="container nav-flex"><a href="index.html" class="logo"><i class="fas fa-mountain"></i> BANDEROZA</a><a href="index.html" class="btn-nav">Wróć</a></div></nav>
+
+<section class="section-padding" style="padding-top: 120px;">
+    <div class="container">
+        <div class="glass-card" style="padding: 40px;">
+            <h1 style="font-size: 3rem; margin-bottom: 20px;">Szlaki Beskidzkie</h1>
+            <p style="font-size: 1.2rem; margin-bottom: 30px;">
+                Żywiec to idealna baza wypadowa. Wybraliśmy dla Ciebie najlepsze trasy: od spaceru z wózkiem po wyzwania dla twardzieli.
+            </p>
+
+            <div class="trail-item">
+                <span class="trail-level level-easy">DLA POCZĄTKUJĄCYCH</span>
+                <h3>Góra Grojec (Średni Grojec)</h3>
+                <p>Przyjemny spacer prosto z miasta. Piękne widoki na Żywiec i jezioro. Idealne na popołudnie.</p>
+                <a href="https://mapa-turystyczna.pl/node/grojec#49.64920/19.26847/12" target="_blank" class="btn-external" style="font-size:0.8rem">Zobacz mapę szlaku</a>
+            </div>
+
+            <div class="trail-item">
+                <span class="trail-level level-medium">DLA ŚREDNIOZAAWANSOWANYCH</span>
+                <h3>Góra Żar (Międzybrodzie)</h3>
+                <p>Można wejść pieszo (ok. 1h) lub wjechać kolejką. Na szczycie zbiornik wodny, lotnisko szybowcowe i niesamowita panorama.</p>
+                <a href="https://pkl.pl/gora-zar/gora-zar/" target="_blank" class="btn-external" style="font-size:0.8rem">Kolejka i Info</a>
+            </div>
+
+            <div class="trail-item">
+    <span class="trail-level level-hard">DLA ZAAWANSOWANYCH</span>
+    <h3>Pilsko lub Babia Góra</h3>
+    <p>Prawdziwa górska wyprawa. Wymaga dojazdu do Korbielowa lub Zawoi (ok. 30-40 min autem od Banderozy), ale widoki zrekompensują wysiłek.</p>
+    
+    <a href="https://mapa-turystyczna.pl/route/tqj#49.57089/19.41610/12" target="_blank" class="btn-external" style="font-size:0.8rem">
+        Zobacz trasę na Babią Górę
+    </a>
+</div>
+
+        </div>
+    </div>
+</section>
+
+<div class="mascot-container"><div class="bear-body"><div class="bear-head"><div class="bear-ear left"></div><div class="bear-ear right"></div><div class="bear-face"><div class="eye-group"><div class="eye"><div class="pupil"></div></div><div class="eye"><div class="pupil"></div></div></div><div class="bear-nose"></div><div class="bear-muzzle"></div></div></div></div></div>
+<script>document.addEventListener('mousemove',(e)=>{if(window.innerWidth>1000){const eyes=document.querySelectorAll('.eye');eyes.forEach(eye=>{const rect=eye.getBoundingClientRect();const x=rect.left+(rect.width/2);const y=rect.top+(rect.height/2);const rad=Math.atan2(e.clientY-y,e.clientX-x);const rot=(rad*(180/Math.PI));eye.style.transform=`rotate(${rot}deg)`;});}});</script>
+</body>
+</html>
